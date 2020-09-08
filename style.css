@@ -6,3 +6,8 @@
   color: white !important;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+.footer {
+  border-top: 5px solid #3ab4b4;
+  background-color: rgba(71, 71, 71, 0.685);
+}
