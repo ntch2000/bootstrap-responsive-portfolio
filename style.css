@@ -1,0 +1,8 @@
+.navbar-brand {
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #3ab4b4;
+  color: white !important;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
