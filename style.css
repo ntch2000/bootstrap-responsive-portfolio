@@ -2,14 +2,18 @@
   font-weight: bold;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #3ab4b4;
-  color: white !important;
+  background-color: #4aaaa5;
+  color: #ffffff !important;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .footer {
-  border-top: 5px solid #3ab4b4;
-  background-color: rgba(71, 71, 71, 0.685);
+  border-top: 5px solid #4aaaa5;
+  background-color: #666666;
+}
+
+.footer p {
+  color: #6b7278;
 }
 
 .active {
