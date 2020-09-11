@@ -2,6 +2,9 @@ body > .container {
   padding: 60px 15px 0;
 }
 
+.bg {
+  background-image: url(./images/pexels-henry-&-co-1939485.jpg);
+}
 .navbar-brand {
   font-weight: bold;
   padding-top: 5px;
