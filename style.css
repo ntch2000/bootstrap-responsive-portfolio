@@ -11,6 +11,9 @@ body > .container {
   padding: 60px 15px 0;
 }
 
+/* Background image for the website is set here 
+** currently a placeholder image ** 
+*/
 .bg {
   background-image: url(./images/pexels-henry-&-co-1939485.jpg);
 }
@@ -21,6 +24,14 @@ body > .container {
   background-color: #4aaaa5;
   color: #ffffff !important;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Setting the proper font, color and spacing for the page headers */
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #4aaaa5;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 /* Footer styling to ensure text is centered and footer
