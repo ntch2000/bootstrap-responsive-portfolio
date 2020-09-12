@@ -51,3 +51,8 @@ sticks to the bottom of page no matter the size of the content*/
 .active {
   color: black !important;
 }
+
+.sub {
+  background-color: #4aaaa5;
+  color: white;
+}

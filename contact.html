@@ -19,9 +19,9 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="bg">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a href="#" class="navbar-brand">Neil Gandhi</a>
+      <a class="navbar-brand">Neil Gandhi</a>
       <button class="navbar-toggler">
         <span
           class="navbar-toggler-icon"
@@ -43,6 +43,59 @@
         </ul>
       </div>
     </nav>
+
+    <div class="container py-5">
+      <!--Contains all content, provides spacing on the top and bottom-->
+      <div class="row">
+        <!-- One column that is resized a 768px to take 2/3 of screen space -->
+        <div class="col-12 col-md-8 bg-white">
+          <!-- nested row and column for the page header -- takes up full width of column at all screen sizes -->
+          <div class="row">
+            <div class="col-12">
+              <h1 class="border-bottom">Portfolio</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-10 px-5 pb-4">
+              <form class="bg-dark">
+                <div class="form-group">
+                  <label for="inputName">Name</label>
+                  <input
+                    type="name"
+                    class="form-control"
+                    id="inputName"
+                    aria-describedby="enterName"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="inputEmail">Password</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="inputMessage">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="inputMessage"
+                    rows="3"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn sub p-3">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- Accounts for second column under the main container -- this creates the empty space causing the content to be pushed to the left at 768px screen size -->
+        <div class="col-md-4"></div>
+      </div>
+    </div>
 
     <!-- Creates sticky footer at the bottom of the page -->
     <footer class="footer text-center">
