@@ -56,3 +56,14 @@ sticks to the bottom of page no matter the size of the content*/
   background-color: #4aaaa5;
   color: white;
 }
+
+/* Index.html styling */
+
+/* Styles the bio picture with the proper sizing and spacing */
+.bio-pic {
+  width: 200px;
+  height: 200px;
+  margin-right: 15px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
