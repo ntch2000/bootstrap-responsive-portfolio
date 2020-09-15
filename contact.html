@@ -44,21 +44,22 @@
       </div>
     </nav>
 
-    <div class="container py-5">
+    <main class="container py-5">
       <!--Contains all content, provides spacing on the top -->
       <div class="row mt-4">
-        <!-- One column that is resized a 768px to take 2/3 of screen space -->
+        <!-- One column that is resized a 768px to take 2/3 of screen space with additional padding at all screen sizes. Additional horizontal margin spacing is provided at screen sizes of 768px and above. Background color is white -->
         <div class="col-12 col-md-8 bg-white mx-md-3 px-4">
-          <!-- nested row and column for the page header -- takes up full width of column at all screen sizes -->
-          <div class="row">
+          <!-- nested row and column for the page header -- takes up full width of column at all screen sizes and has additional padding on top -->
+          <header class="row">
             <div class="col-12 pt-2">
               <h1 class="border-bottom">Contact</h1>
             </div>
-          </div>
+          </header>
+          <!-- Contact form grid layout starts here. Additional padding is added to both the top and bottom of the form -->
           <form class="pt-2 pb-3">
-            <div class="row">
+            <section class="row">
+              <!-- Column is resized at screen sizes above 768px and additional horizontal padding is added for spacing -->
               <div class="col-12 col-md-10 px-5">
-                <!-- Contact form starts here -->
                 <!-- Label and input box for user's name -->
                 <div class="form-group">
                   <label for="inputName">Name</label>
@@ -92,20 +93,18 @@
                   ></textarea>
                 </div>
               </div>
-            </div>
+            </section>
 
             <!-- new row for the button to achieve proper spacing -->
-            <div class="row">
+            <section class="row">
               <div class="col-4 pb-3 pl-4">
                 <button type="submit" class="btn sub px-4 py-2">Submit</button>
               </div>
-            </div>
+            </section>
           </form>
         </div>
-        <!-- Accounts for second column under the main container -- this creates the empty space causing the content to be pushed to the left at 768px screen size -->
-        <div class="col-md-4"></div>
       </div>
-    </div>
+    </main>
 
     <!-- Creates sticky footer at the bottom of the page -->
     <footer class="footer text-center">
@@ -115,6 +114,7 @@
       </section>
     </footer>
 
+    <!-- Javascript files that allow the navbar to collapse and still function properly to navigate to each page -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
