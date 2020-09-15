@@ -45,20 +45,21 @@
     </nav>
 
     <div class="container py-5">
-      <!--Contains all content, provides spacing on the top and bottom-->
-      <div class="row">
+      <!--Contains all content, provides spacing on the top -->
+      <div class="row mt-4">
         <!-- One column that is resized a 768px to take 2/3 of screen space -->
-        <div class="col-12 col-md-8 bg-white">
+        <div class="col-12 col-md-8 bg-white mx-md-3 px-4">
           <!-- nested row and column for the page header -- takes up full width of column at all screen sizes -->
           <div class="row">
-            <div class="col-12">
-              <h1 class="border-bottom">Portfolio</h1>
+            <div class="col-12 pt-2">
+              <h1 class="border-bottom">Contact</h1>
             </div>
           </div>
-
-          <div class="row">
-            <div class="col-12 col-md-10 px-5 pb-4">
-              <form class="bg-dark">
+          <form class="pt-2 pb-3">
+            <div class="row">
+              <div class="col-12 col-md-10 px-5">
+                <!-- Contact form starts here -->
+                <!-- Label and input box for user's name -->
                 <div class="form-group">
                   <label for="inputName">Name</label>
                   <input
@@ -69,8 +70,9 @@
                     placeholder="Name"
                   />
                 </div>
+                <!-- label and input box for user's email -->
                 <div class="form-group">
-                  <label for="inputEmail">Password</label>
+                  <label for="inputEmail">Email</label>
                   <input
                     type="email"
                     class="form-control"
@@ -78,6 +80,8 @@
                     placeholder="Email"
                   />
                 </div>
+
+                <!-- label and input box for user's message -->
                 <div class="form-group">
                   <label for="inputMessage">Message</label>
                   <textarea
@@ -87,10 +91,16 @@
                     placeholder="Message"
                   ></textarea>
                 </div>
-                <button type="submit" class="btn sub p-3">Submit</button>
-              </form>
+              </div>
             </div>
-          </div>
+
+            <!-- new row for the button to achieve proper spacing -->
+            <div class="row">
+              <div class="col-4 pb-3 pl-4">
+                <button type="submit" class="btn sub px-4 py-2">Submit</button>
+              </div>
+            </div>
+          </form>
         </div>
         <!-- Accounts for second column under the main container -- this creates the empty space causing the content to be pushed to the left at 768px screen size -->
         <div class="col-md-4"></div>

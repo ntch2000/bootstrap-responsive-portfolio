@@ -11,12 +11,13 @@ body > .container {
   padding: 60px 15px 0;
 }
 
-/* Background image for the website is set here 
-** currently a placeholder image ** 
-*/
+/* Background image for the website is set here */
+
 .bg {
   background-image: url(./images/ignasi_pattern_s.png);
 }
+
+/* Styles the navbar-brand icon to be the proper color, size, and font */
 .navbar-brand {
   font-weight: bold;
   padding-top: 5px;
@@ -32,6 +33,7 @@ h1 {
   color: #4aaaa5;
   padding-top: 20px;
   padding-bottom: 10px;
+  font-weight: bold;
 }
 
 /* Footer styling to ensure text is centered and footer
@@ -48,16 +50,12 @@ sticks to the bottom of page no matter the size of the content*/
   line-height: 55px;
 }
 
+/* ensures the page the user is on has an active link styling */
 .active {
   color: black !important;
 }
 
-.sub {
-  background-color: #4aaaa5;
-  color: white;
-}
-
-/* Index.html styling */
+/* Index.html spcific styling */
 
 /* Styles the bio picture with the proper sizing and spacing */
 .bio-pic {
@@ -66,4 +64,11 @@ sticks to the bottom of page no matter the size of the content*/
   margin-right: 15px;
   margin-left: 5px;
   margin-top: 5px;
+}
+
+/* Contact.html specific styling */
+
+.sub {
+  background-color: #4aaaa5;
+  color: white;
 }
