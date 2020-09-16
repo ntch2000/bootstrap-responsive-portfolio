@@ -19,11 +19,12 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+  <!--Sets background image for page-->
   <body class="bg">
-    <!--Sets background image for page-->
-
+    <!-- Top responsive navigation bar with links to each page (Contact, Portfolio, and About) -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a href="index.html" class="navbar-brand">Neil Gandhi</a>
+      <!-- toggles open links in hamburger button when at small screen sizes. -->
       <button class="navbar-toggler">
         <span
           class="navbar-toggler-icon"
@@ -45,19 +46,19 @@
         </ul>
       </div>
     </nav>
-    <!--Contains all content, provides spacing on the top and bottom-->
-    <div class="container py-5">
-      <div class="row">
+    <!--Contains all content, provides spacing on the top for all screen sizes and spacing on the sides for xs screen size -->
+    <main class="container py-5">
+      <div class="row mt-4 px-3 px-md-0">
         <!-- One column that is resized at 768px to take 2/3 of screen space -->
-        <div class="col-12 col-md-8 bg-white">
+        <div class="col-12 col-md-8 bg-white mx-md-3 px-4">
           <!-- nested row and column for the page header -- takes up full width of column at all screen sizes -->
-          <div class="row">
+          <header class="row">
             <div class="col-12">
               <h1 class="border-bottom">Portfolio</h1>
             </div>
-          </div>
+          </header>
           <!-- The second nested row with a column containing the images -- resizes at 992px to take up 1/2 the column width. Allows for 2 images to be shown per row -->
-          <div class="row">
+          <section class="row">
             <div class="col-12 col-lg-6 p-3">
               <img
                 src="https://via.placeholder.com/350"
@@ -93,12 +94,10 @@
                 alt="Responsive image"
               />
             </div>
-          </div>
+          </section>
         </div>
-        <!-- Accounts for second column under the main container -- this creates the empty space causing the content to be pushed to the left at 768px screen size -->
-        <div class="col-md-4"></div>
       </div>
-    </div>
+    </main>
 
     <!-- Creates sticky footer at the bottom of the page -->
     <footer class="footer text-center">
