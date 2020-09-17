@@ -93,9 +93,9 @@ The following are screen captures of the various pages at each responsive breakp
 
 The resources used to help develop this application are as follows.
 
-- The [Bootstrap 4](#https://getbootstrap.com/) framework was used to create the majority of the page and css styles. This allowed for proper layout and responsiveness required for the page.
-- The sticky footer for each page was created utlizing the sticky footer example from [Bootstrap 4 Sticky Footer](#https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/)
-- The placeholder images were obtained from [Placeholder Images](#https://via.placeholder.com/150).
+- The [Bootstrap 4](https://getbootstrap.com/) framework was used to create the majority of the page and css styles. This allowed for proper layout and responsiveness required for the page.
+- The sticky footer for each page was created utilizing the sticky footer example from [Bootstrap 4 Sticky Footer](https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/)
+- The placeholder images were obtained from [Placeholder Images](https://via.placeholder.com/150).
 - The TA Peter Colella helped find the proper background image to use on the pages.
 
 ---
