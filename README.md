@@ -47,15 +47,15 @@ The following are screen captures of the various pages at each responsive breakp
 
 #### 992 Pixel Breakpoint
 
-![992-index.html](./images/992-index-ng.jpg "index.html at 992 pixels")
+![992-index.html](./assets/images/992-index-ng.jpg "index.html at 992 pixels")
 
 #### 768 Pixel Breakpoint
 
-![768-index.html](./images/768-index-ng.jpg "index.html at 768 pixels")
+![768-index.html](./assets/images/768-index-ng.jpg "index.html at 768 pixels")
 
 #### 400 Pixel Breakpoint
 
-![400-index.html](./images/400-index-ng.jpg "index.html at 400 pixels")
+![400-index.html](./assets/images/400-index-ng.jpg "index.html at 400 pixels")
 
 ### Portfolio.html
 
@@ -63,15 +63,15 @@ The following are screen captures of the various pages at each responsive breakp
 
 #### 992 Pixel Breakpoint
 
-![992-portfolio.html](./images/992-portfolio-ng.jpg "portfolio.html at 992 pixels")
+![992-portfolio.html](./assets/images/992-portfolio-ng.jpg "portfolio.html at 992 pixels")
 
 #### 768 Pixel Breakpoint
 
-![768-portfolio.html](./images/768-portfolio-ng.jpg "portfolio.html at 768 pixels")
+![768-portfolio.html](./assets/images/768-portfolio-ng.jpg "portfolio.html at 768 pixels")
 
 #### 400 Pixel Breakpoint
 
-![400-portfolio.html](./images/400-portfolio-ng.jpg "portfolio.html at 400 pixels")
+![400-portfolio.html](./assets/images/400-portfolio-ng.jpg "portfolio.html at 400 pixels")
 
 ### Contact.html
 
@@ -79,15 +79,15 @@ The following are screen captures of the various pages at each responsive breakp
 
 #### 992 Pixel Breakpoint
 
-![992-contact.html](./images/992-contact-ng.jpg "contact.html at 992 pixels")
+![992-contact.html](./assets/images/992-contact-ng.jpg "contact.html at 992 pixels")
 
 #### 768 Pixel Breakpoint
 
-![768-contact.html](./images/768-contact-ng.jpg "contact.html at 768 pixels")
+![768-contact.html](./assets/images/768-contact-ng.jpg "contact.html at 768 pixels")
 
 #### 400 Pixel Breakpoint
 
-![400-contact.html](./images/400-contact-ng.jpg "contact.html at 400 pixels")
+![400-contact.html](./assets/images/400-contact-ng.jpg "contact.html at 400 pixels")
 
 ## Credits
 
