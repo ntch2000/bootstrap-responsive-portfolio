@@ -13,9 +13,13 @@ body > .container {
 
 /* Background image for the website is set here */
 
-/* .bg {
-  background-image: url(./images/ignasi_pattern_s.png);
-} */
+.bg {
+  background-image: url(./images/Main-BG2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
 
 .bg {
   background-color: #666666;
@@ -28,6 +32,9 @@ body > .container {
   background-color: #4aaaa5;
   color: #ffffff !important;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nav-link {
+  color: #ffffff !important;
 }
 
 /* Setting the proper font, color and spacing for the page headers */
