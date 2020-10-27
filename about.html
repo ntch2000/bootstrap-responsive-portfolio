@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Contact</title>
+    <title>Main</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -19,6 +19,7 @@
     />
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
+  <!--Sets background image for page-->
   <body class="bg">
     <!-- Top responsive navigation bar with links to each page (Contact, Portfolio, and About) -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -34,76 +35,62 @@
       <div class="collapse navbar-collapse" id="navbarMenu">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="#" class="nav-link active">Contact</a>
+            <a href="contact.html" class="nav-link">Contact</a>
           </li>
           <li class="nav-item">
             <a href="portfolio.html" class="nav-link">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a href="about.html" class="nav-link">About</a>
+            <a href="about.html" class="nav-link active">About</a>
           </li>
         </ul>
       </div>
     </nav>
-
+    <!--Contains all content, provides spacing on the top for all screen sizes and spacing on the sides for xs screen size -->
     <main class="container py-5">
-      <!--Contains all content, provides spacing on the top for all screen sizes and spacing on the sides for xs screen size -->
       <div class="row mt-4 px-3 px-md-0">
-        <!-- One column that is resized a 768px to take 2/3 of screen space with additional padding at all screen sizes. Additional horizontal margin spacing is provided at screen sizes of 768px and above. Background color is white -->
-        <div class="col-12 col-md-8 bg-white mx-md-3 px-4">
-          <!-- nested row and column for the page header -- takes up full width of column at all screen sizes and has additional padding on top -->
+        <!-- One column that is resized at 768px to take 2/3 of screen space -->
+        <article class="col-12 col-md-8 bg-white px-4 mx-md-3">
+          <!-- nested row and column for the page header -- takes up full width of column at all screen sizes -->
           <header class="row">
-            <div class="col-12 pt-2">
-              <h1 class="border-bottom">Contact</h1>
+            <!-- Page heading - About Me -->
+            <div class="col-12">
+              <h1 class="border-bottom">About Me</h1>
             </div>
           </header>
-          <!-- Contact form grid layout starts here. Additional padding is added to both the top and bottom of the form -->
-          <form class="pt-2 pb-3">
-            <section class="row">
-              <!-- Column is resized at screen sizes above 768px and additional horizontal padding is added for spacing -->
-              <div class="col-12 col-md-10 px-5">
-                <!-- Label and input box for user's name -->
-                <div class="form-group">
-                  <label for="inputName">Name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="inputName"
-                    placeholder="Name"
-                  />
-                </div>
-                <!-- label and input box for user's email -->
-                <div class="form-group">
-                  <label for="inputEmail">Email</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="inputEmail"
-                    placeholder="Email"
-                  />
-                </div>
-
-                <!-- label and input box for user's message -->
-                <div class="form-group">
-                  <label for="inputMessage">Message</label>
-                  <textarea
-                    class="form-control"
-                    id="inputMessage"
-                    rows="3"
-                    placeholder="Message"
-                  ></textarea>
-                </div>
-              </div>
-            </section>
-
-            <!-- new row for the button to achieve proper spacing -->
-            <section class="row">
-              <div class="col-4 pb-3 pl-4">
-                <button type="submit" class="btn sub px-4 py-2">Submit</button>
-              </div>
-            </section>
-          </form>
-        </div>
+          <!-- Row below heading that contains the bio image as well at bio text -- both are in a single column with the image floated to the left to allow for text to wrap -->
+          <section class="row">
+            <div class="col-12">
+              <img
+                src="./assets/images/bio-image.jpg"
+                class="bio-pic float-left"
+                alt="Biography Photo of Neil Gandhi"
+              />
+              <p>
+                Seasoned Project Management Professional (PMP) and Certified
+                Systems Engineering Professional (CSEP) with a Master of Science
+                in Computer Information Systems and currently part of the full
+                stack development technologies bootcamp from the Georgia Tech
+                Professional Education program. I have over 10 years of
+                experience in managing multi million-dollar security system
+                solutions for the Department of Defense, looking to integrate my
+                expertise and passion into full stack engineering technologies
+                and web development. My ability to learn concepts quickly,
+                manage requirements, and communicate effectively with
+                stakeholders allow me to be the ideal candidate for any software
+                engineering or development efforts.
+              </p>
+            </div>
+            <div class="col-12 py-4">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                perferendis a inventore dicta illum ullam illo, placeat
+                consectetur ut officia recusandae veritatis neque, aut velit
+                unde ipsum perspiciatis? Ipsa, dolor?
+              </p>
+            </div>
+          </section>
+        </article>
       </div>
     </main>
 

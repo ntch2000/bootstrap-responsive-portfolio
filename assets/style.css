@@ -13,10 +13,13 @@ body > .container {
 
 /* Background image for the website is set here */
 
-.bg {
+/* .bg {
   background-image: url(./images/ignasi_pattern_s.png);
-}
+} */
 
+.bg {
+  background-color: #666666;
+}
 /* Styles the navbar-brand icon to be the proper color, size, and font */
 .navbar-brand {
   font-weight: bold;
@@ -74,7 +77,7 @@ sticks to the bottom of page no matter the size of the content*/
 
 /* Portfolio.html specific styling */
 
-.proj-1 {
+/* .proj-1 {
   width: 350px;
   height: auto;
-}
+} */
