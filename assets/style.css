@@ -11,6 +11,12 @@ body > .container {
   padding: 60px 15px 0;
 }
 
+#splashPage {
+  opacity: 0.7;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
 /* Background image for the website is set here */
 
 .bg {
@@ -21,15 +27,11 @@ body > .container {
   height: 100%;
 }
 
-.bg {
-  background-color: #666666;
-}
 /* Styles the navbar-brand icon to be the proper color, size, and font */
 .navbar-brand {
   font-weight: bold;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #4aaaa5;
   color: #ffffff !important;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -60,9 +62,29 @@ sticks to the bottom of page no matter the size of the content*/
   line-height: 55px;
 }
 
+.navbar {
+  height: 60px;
+  font-weight: bold;
+  background: transparent url(./images/menu-bg-2.png) left top repeat;
+}
 /* ensures the page the user is on has an active link styling */
-.active {
-  color: black !important;
+
+/* working on correcting active and hover link behavior */
+.nav-link.active {
+  border: 2px solid #fff;
+  border-radius: 4px;
+  padding: 6px 13px;
+}
+
+.nav-link:hover {
+  border: 2px solid #fff;
+  border-radius: 4px;
+  padding: 6px 13px;
+}
+
+.nav-link {
+  margin-right: 15px;
+  padding: 8px 15px;
 }
 
 /* Index.html spcific styling */
