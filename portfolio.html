@@ -50,13 +50,18 @@
     <main class="container py-5">
       <div class="row mt-4 px-3 px-md-0">
         <!-- One column that is resized at 768px to take 2/3 of screen space -->
-        <div class="col-12 bg-white mx-md-3 px-4">
+        <div class="col-12 bg-white mx-md-3 px-4" id="portfolio">
           <!-- nested row and column for the page header -- takes up full width of column at all screen sizes -->
           <header class="row">
             <div class="col-12">
-              <h1 class="border-bottom">Portfolio</h1>
+              <h1 class="border-bottom" id="title">Portfolio</h1>
             </div>
           </header>
+
+          <!-- Project 1 - SearchU Details Card -->
+          <div class="card mr-auto ml-auto w-75" id="details"></div>
+          <!-- details end -->
+
           <!-- The second nested row with a column containing the images -- resizes at 992px to take up 1/2 the column width. Allows for 2 images to be shown per row -->
           <section class="row card-deck py-4">
             <div class="card">
@@ -74,24 +79,18 @@
                 </p>
               </div>
               <div class="card-footer text-center">
-                <a
-                  href="https://ntch2000.github.io/searchu-project1/"
-                  class="card-link"
-                  >Application</a
-                >
-                <a
-                  href="https://github.com/ntch2000/searchu-project1"
-                  class="card-link"
-                  >Github Repository</a
-                >
+                <button class="btn btn-primary" id="SearchU">
+                  Project Details
+                </button>
               </div>
             </div>
+
             <div class="card">
               <h5 class="card-header text-center">Weather Dashboard</h5>
               <img
                 src="./assets/images/weather-dashboard-screenshot.jpg"
                 class="card-img-top"
-                alt="Project 1 - SearchU gif"
+                alt="Weather Dashboard Application Image"
               />
 
               <div class="card-body">
@@ -101,16 +100,9 @@
                 </p>
               </div>
               <div class="card-footer text-center">
-                <a
-                  href="https://ntch2000.github.io/weather-dashboard/"
-                  class="card-link"
-                  >Application</a
-                >
-                <a
-                  href="https://github.com/ntch2000/weather-dashboard"
-                  class="card-link"
-                  >Github Repository</a
-                >
+                <button class="btn btn-primary" id="weather-dashboard">
+                  Application Details
+                </button>
               </div>
             </div>
             <div class="card">
@@ -118,7 +110,7 @@
               <img
                 src="./assets/images/application-screenshot.jpg"
                 class="card-img-top"
-                alt="Project 1 - SearchU gif"
+                alt="Daily Planner Application Image"
               />
               <div class="card-body">
                 <p class="card-text">
@@ -127,16 +119,9 @@
                 </p>
               </div>
               <div class="card-footer text-center">
-                <a
-                  href="https://ntch2000.github.io/daily-planner/"
-                  class="card-link"
-                  >Application</a
-                >
-                <a
-                  href="https://github.com/ntch2000/daily-planner"
-                  class="card-link"
-                  >Github Repository</a
-                >
+                <button class="btn btn-primary" id="daily-planner">
+                  Application Details
+                </button>
               </div>
             </div>
           </section>
@@ -168,5 +153,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
