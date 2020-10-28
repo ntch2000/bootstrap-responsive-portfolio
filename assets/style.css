@@ -105,3 +105,34 @@ sticks to the bottom of page no matter the size of the content*/
 }
 
 /* Portfolio.html specific styling */
+.card {
+  background-color: grey;
+  color: white;
+}
+
+.list-group-item {
+  background-color: grey;
+  color: white;
+}
+
+/* font awesome icon colors */
+
+.fa-html5 {
+  color: orange;
+}
+
+.fa-css3 {
+  color: rgb(0, 98, 255);
+}
+
+.fa-js-square {
+  color: yellow;
+}
+
+.fa-bootstrap {
+  color: purple;
+}
+
+.fa-node {
+  color: green;
+}
