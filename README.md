@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is the baseline of what will be a Career Portfolio webpage for the work done in this course. This webpage will hightlight the skills learned in this bootcamp as well as provide examples of work to prospective employers/visitors.
+This project is the updated Career Portfolio webpage for the work done in this course. This portfolio highlights the skills learned in this bootcamp as well as provides examples of work to prospective employers/visitors.
 
 This page will utilize all the skills learned in the course to showcase my capabilities and will be a page that can be linked to containing any and all information needed to become employer-competitive.
 
@@ -10,7 +10,6 @@ This page will utilize all the skills learned in the course to showcase my capab
 
 - [Installation](#installation)
 - [Development Notes](#development-notes)
-  - [Development Challenges](#development-challenges)
 - [Usage](#usage)
   - [Index.html](#index.html)
   - [Portfolio.html](#portfolio.html)
@@ -25,69 +24,37 @@ To see the code base for this page, visit my github page [https://github.com/ntc
 
 ## Development Notes
 
-This is just the baseline career page which will be added to as additional skills are learned. Currently the information on the page may not be complete, but will be added to in subsequent releases.
-
-### Development Challenges
-
-The proper colors for the pages was one of the first challenges faced. This was remedied by utilizing the asset images provided and inspecting the colors with MS Paint. This allowed for the exact hex code to use for each element.
-
-The most challenging portion of this application was ensuring proper spacing and utilizing the Bootstrap grid layout to obtain the proper responsiveness for each breakpoint and pixel width.
-
-Ensuring the biography image and biography text information fit on a single row and wrapped properly was another challenge that was faced. This was corrected by ensuring the the image and text was in a single column, with the image sized appropriately in the css and floated to the left.
-
-Finally, the submit button on the contact form was another challenge as the spacing the position was difficult to achieve. The padding nad margin of the button had to be adjusted to get the proper look.
+This is the newly updated career portfolio page, with personalized information as well as new styling. This page will continue to evolve as new technologies are learned and new frameworks integrated to provide the best portfolio page possible with the end result to obtain a new career in web-development.
 
 ## Usage
 
-The following are screen captures of the various pages at each responsive breakpoint.
+The following are screen captures of the updated portfolio pages.
 
 ### Index.html
 
+![Index Splash Page](./assets/images/index-splash-page.jpg "Portfolio Splash Page")
+
 ---
 
-#### 992 Pixel Breakpoint
+### About.html
 
-![992-index.html](./assets/images/992-index-ng.jpg "index.html at 992 pixels")
+![About Me Page](./assets/images/about-me.jpg "About Me Page")
 
-#### 768 Pixel Breakpoint
-
-![768-index.html](./assets/images/768-index-ng.jpg "index.html at 768 pixels")
-
-#### 400 Pixel Breakpoint
-
-![400-index.html](./assets/images/400-index-ng.jpg "index.html at 400 pixels")
+---
 
 ### Portfolio.html
 
+![Portfolio Page](./assets/images/portfolio.jpg "Portfolio Page")
+
+![Portfolio Details Page](./assets/images/portfolio-details.png "Portfolio Details Page")
+
 ---
-
-#### 992 Pixel Breakpoint
-
-![992-portfolio.html](./assets/images/992-portfolio-ng.jpg "portfolio.html at 992 pixels")
-
-#### 768 Pixel Breakpoint
-
-![768-portfolio.html](./assets/images/768-portfolio-ng.jpg "portfolio.html at 768 pixels")
-
-#### 400 Pixel Breakpoint
-
-![400-portfolio.html](./assets/images/400-portfolio-ng.jpg "portfolio.html at 400 pixels")
 
 ### Contact.html
 
+![Contact Page](./assets/images/contact.jpg "Contact Page")
+
 ---
-
-#### 992 Pixel Breakpoint
-
-![992-contact.html](./assets/images/992-contact-ng.jpg "contact.html at 992 pixels")
-
-#### 768 Pixel Breakpoint
-
-![768-contact.html](./assets/images/768-contact-ng.jpg "contact.html at 768 pixels")
-
-#### 400 Pixel Breakpoint
-
-![400-contact.html](./assets/images/400-contact-ng.jpg "contact.html at 400 pixels")
 
 ## Credits
 
@@ -95,8 +62,7 @@ The resources used to help develop this application are as follows.
 
 - The [Bootstrap 4](https://getbootstrap.com/) framework was used to create the majority of the page and css styles. This allowed for proper layout and responsiveness required for the page.
 - The sticky footer for each page was created utilizing the sticky footer example from [Bootstrap 4 Sticky Footer](https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/)
-- The placeholder images were obtained from [Placeholder Images](https://via.placeholder.com/150).
-- The TA Peter Colella helped find the proper background image to use on the pages.
+- I used [Font Awesome](https://fontawesome.com/) icons for the contact page as well as the skills section.
 
 ---
 

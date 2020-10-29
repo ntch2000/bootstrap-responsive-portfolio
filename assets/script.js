@@ -43,17 +43,17 @@ $("#SearchU").on("click", function () {
   </ul>
   
   <div class="card-footer text-center">
-  <button class="btn btn-primary mx-2" id="projects-list">
+  <button class="btn btn-info-color mx-2" id="projects-list">
   Portfolio
                 </button>
     <a
       href="https://ntch2000.github.io/searchu-project1/"
-      class="btn btn-primary mx-2" target="_blank"
+      class="btn btn-info-color mx-2" target="_blank"
       >Application</a
     >
     <a
       href="https://github.com/ntch2000/searchu-project1"
-      class="btn btn-primary mx-2" target="_blank"
+      class="btn btn-info-color mx-2" target="_blank"
       >Github Repository</a
     >
   </div>`);
@@ -101,17 +101,17 @@ $("#weather-dashboard").on("click", function () {
     </ul>
     
     <div class="card-footer text-center">
-    <button class="btn btn-primary mx-2" id="projects-list">
+    <button class="btn btn-info-color mx-2" id="projects-list">
     Portfolio
                 </button>
     <a
     href="https://ntch2000.github.io/weather-dashboard/"
-    class="btn btn-primary mx-2" target="_blank"
+    class="btn btn-info-color mx-2" target="_blank"
     >Application</a
   >
   <a
     href="https://github.com/ntch2000/weather-dashboard"
-    class="btn btn-primary mx-2" target="_blank"
+    class="btn btn-info-color mx-2" target="_blank"
     >Github Repository</a
   >
     </div>`);
@@ -145,17 +145,17 @@ $("#daily-planner").on("click", function () {
       
     </ul>
       <div class="card-footer text-center">
-      <button class="btn btn-primary mx-2" id="projects-list">
+      <button class="btn btn-info-color mx-2" id="projects-list">
                     Portfolio
                   </button>
       <a
       href="https://ntch2000.github.io/daily-planner/"
-      class="btn btn-primary mx-2" target="_blank"
+      class="btn btn-info-color mx-2" target="_blank"
       >Application</a
     >
     <a
       href="https://github.com/ntch2000/daily-planner"
-      class="btn btn-primary mx-2" target="_blank"
+      class="btn btn-info-color mx-2" target="_blank"
       >Github Repository</a
     >
       </div>`);
