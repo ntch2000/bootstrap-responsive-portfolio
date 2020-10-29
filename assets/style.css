@@ -99,8 +99,22 @@ sticks to the bottom of page no matter the size of the content*/
 
 /* Contact.html specific styling */
 
-.sub {
-  background-color: #4aaaa5;
+a {
+  color: #004173;
+}
+
+.info-color {
+  color: #004173;
+}
+
+.btn-info-color {
+  background-color: #004173;
+  color: white;
+}
+
+.btn-info-color:hover {
+  transition: 0.5s;
+  background-color: #012f53;
   color: white;
 }
 

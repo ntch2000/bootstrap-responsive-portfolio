@@ -13,6 +13,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
@@ -50,14 +56,75 @@
       <!--Contains all content, provides spacing on the top for all screen sizes and spacing on the sides for xs screen size -->
       <div class="row mt-4 px-3 px-md-0">
         <!-- One column that is resized a 768px to take 2/3 of screen space with additional padding at all screen sizes. Additional horizontal margin spacing is provided at screen sizes of 768px and above. Background color is white -->
-        <div class="col-12 col-md-8 bg-white mx-md-3 px-4">
+        <div class="col-12 col-md-8 bg-dark text-white mx-md-3 px-4">
           <!-- nested row and column for the page header -- takes up full width of column at all screen sizes and has additional padding on top -->
           <header class="row">
             <div class="col-12 pt-2">
-              <h1 class="border-bottom">Contact</h1>
+              <h1 class="border-bottom">Contact Information</h1>
             </div>
           </header>
-          <!-- Contact form grid layout starts here. Additional padding is added to both the top and bottom of the form -->
+          <section class="row">
+            <div class="col-12 pb-4 contact">
+              <ul class="list-group">
+                <li class="list-group-item d-flex align-items-center">
+                  <i class="far fa-envelope fa-2x mr-3"></i>
+                  <h5>
+                    Email:
+                    <a class="ml-2" href="mailto:neil.sgandhi@gmail.com"
+                      >neil.sgandhi@gmail.com</a
+                    >
+                  </h5>
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <i class="fas fa-mobile-alt fa-2x ml-1 mr-4"></i>
+                  <h5>
+                    Phone: <span class="ml-2 info-color">404-488-6531</span>
+                  </h5>
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <i class="fab fa-github fa-2x mr-3"></i>
+                  <h5>
+                    GitHub:<a
+                      class="ml-2"
+                      href="https://github.com/ntch2000"
+                      target="_blank"
+                      >@ntch2000</a
+                    >
+                  </h5>
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <i class="fab fa-linkedin fa-2x mr-4"></i>
+                  <h5>
+                    LinkedIn:<a
+                      class="ml-2"
+                      href="www.linkedin.com/in/neil-sgandhi
+                      "
+                      target="_blank"
+                      >Neil S. Gandhi
+                    </a>
+                  </h5>
+                </li>
+                <li class="list-group-item d-flex align-items-center">
+                  <i class="far fa-file fa-2x mr-4"></i>
+                  <h5>Resume:</h5>
+                  <a
+                    class="btn btn-info-color mx-3"
+                    href="./assets/resume/Gandhi_Neil_Resume_20200227.pdf"
+                    target="_blank"
+                    >View</a
+                  >
+                  <a
+                    class="btn btn-info-color"
+                    href="./assets/resume/Gandhi_Neil_Resume_20200227.pdf"
+                    download="Gandhi_Neil_resume"
+                    target="_blank"
+                  >
+                    Download
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
         </div>
       </div>
     </main>
