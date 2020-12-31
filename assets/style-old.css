@@ -1,0 +1,148 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+#splashPage {
+  opacity: 0.9;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+/* Background image for the website is set here */
+
+.bg {
+  background-image: url(./images/Main-BG2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+/* Styles the navbar-brand icon to be the proper color, size, and font */
+.navbar-brand {
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #ffffff !important;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.nav-link {
+  color: #ffffff !important;
+}
+
+/* Setting the proper font, color and spacing for the page headers */
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #4aaaa5;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Footer styling to ensure text is centered and footer
+sticks to the bottom of page no matter the size of the content*/
+.footer {
+  border-top: 5px solid #4aaaa5;
+  background-color: #343a40;
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  color: #4aaaa5;
+
+  /*Centers footer text vertically*/
+  line-height: 55px;
+}
+
+/* ensures the page the user is on has an active link styling */
+
+/* working on correcting active and hover link behavior */
+.nav-link.active {
+  border: 2px solid #fff;
+  border-radius: 4px;
+  padding: 6px 13px;
+}
+
+.nav-link:hover {
+  border: 2px solid #fff;
+  border-radius: 4px;
+  padding: 6px 13px;
+}
+
+.nav-link {
+  margin-right: 15px;
+  padding: 8px 15px;
+}
+
+/* Index.html spcific styling */
+
+/* Styles the bio picture with the proper sizing and spacing */
+.bio-pic {
+  width: 176px;
+  height: 233px;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+/* Contact.html specific styling */
+
+a {
+  color: #004173;
+}
+
+.info-color {
+  color: #004173;
+}
+
+.btn-info-color {
+  background-color: #004173;
+  color: white;
+}
+
+.btn-info-color:hover {
+  transition: 0.5s;
+  background-color: #012f53;
+  color: white;
+}
+
+/* Portfolio.html specific styling */
+.card {
+  background-color: grey;
+  color: white;
+}
+
+.list-group-item {
+  background-color: grey;
+  color: white;
+}
+
+/* font awesome icon colors */
+
+.fa-html5 {
+  color: orange;
+}
+
+.fa-css3 {
+  color: rgb(0, 98, 255);
+}
+
+.fa-js-square {
+  color: yellow;
+}
+
+.fa-bootstrap {
+  color: purple;
+}
+
+.fa-node {
+  color: green;
+}
