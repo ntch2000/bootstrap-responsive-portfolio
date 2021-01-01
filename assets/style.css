@@ -72,3 +72,12 @@ li a:hover {
 .fa-node {
   color: green;
 }
+
+.fa-database {
+  color: teal;
+}
+
+#portfolio {
+  background-color: #3f4144;
+  color: white;
+}
