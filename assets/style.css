@@ -5,6 +5,10 @@ header,
   height: 100%;
 }
 
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
 #intro {
   background: url("./images/Main-BG-2.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -80,4 +84,13 @@ li a:hover {
 #portfolio {
   background-color: #3f4144;
   color: white;
+}
+
+#project-deck {
+  color: black;
+}
+
+.card {
+  background-color: #eee;
+  color: black;
 }
