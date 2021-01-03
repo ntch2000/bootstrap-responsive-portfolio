@@ -1,113 +1,443 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en-us">
-  <!--<![endif]-->
+
+<html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Main</title>
+    <title>Neil Gandhi - Portfolio</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Font Awesome -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
       rel="stylesheet"
     />
-
+    <!-- Material Design Bootstrap -->
     <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
-  <!--Sets background image for page-->
-  <body class="bg">
-    <!-- Top responsive navigation bar with links to each page (Contact, Portfolio, and About) -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a href="index.html" class="navbar-brand">Neil Gandhi</a>
-      <!-- toggles open links in hamburger button when at small screen sizes. -->
-      <button class="navbar-toggler" aria-label="Toggle navigation">
-        <span
-          class="navbar-toggler-icon"
+  <body>
+    <!-- Navigation -->
+    <header>
+      <!--Navbar-->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark elegant-color fixed-top scrolling-navbar"
+      >
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">Neil Gandhi</a>
+
+        <!-- Collapse button -->
+        <button
+          class="navbar-toggler"
+          type="button"
           data-toggle="collapse"
-          data-target="#navbarMenu"
-        ></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarMenu">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a href="portfolio.html" class="nav-link">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!--Contains all content, provides spacing on the top for all screen sizes and spacing on the sides for xs screen size -->
-    <main class="container align-items-center py-5">
-      <div class="row px-md-0" id="splashPage">
-        <div class="jumbotron bg-dark">
-          <h1 class="display-4">Welcome to my Portfolio!</h1>
-          <p class="lead">
-            Seasoned Project Management Professional (PMP) and Certified Systems
-            Engineering Professional (CSEP) with a Master of Science in Computer
-            Information Systems and a certificate in full stack development
-            technologies from the Georgia Tech Professional Education program. I
-            have over 10 years of experience in managing multi million-dollar
-            security system solutions for the Department of Defense, looking to
-            integrate my expertise and passion into full stack engineering
-            technologies and web development. My ability to learn concepts
-            quickly, manage requirements, and communicate effectively with
-            stakeholders allow me to be the ideal candidate for any software
-            engineering or development efforts.
-          </p>
-          <p class="lead">
-            <a class="btn btn-info-color btn-lg" href="about.html" role="button"
-              >About Me</a
-            >
-          </p>
+          data-target="#basicExampleNav"
+          aria-controls="basicExampleNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+          <!-- Links -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+          <!-- Links -->
         </div>
-        <!-- One column that is resized at 768px to take 2/3 of screen space -->
+        <!-- Collapsible content -->
+      </nav>
+      <!--/.Navbar-->
+
+      <div id="intro" class="view">
+        <!--Mask-->
+        <div id="intro" class="view">
+          <div class="mask rgba-black-strong">
+            <div
+              class="container-fluid d-flex align-items-center justify-content-center h-100"
+            >
+              <div class="row d-flex justify-content-center text-center">
+                <div class="col-md-12">
+                  <!-- Heading -->
+                  <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">
+                    Neil Gandhi - Full-Stack Developer
+                  </h2>
+
+                  <!-- Divider -->
+                  <hr class="hr-light" />
+
+                  <!-- Description -->
+                  <h3 class="white-text my-4">
+                    Technical Expertise with a creative mindset. Imagine the
+                    possibilities.
+                  </h3>
+                  <!-- <button type="button" class="btn btn-outline-white">
+                    Read more<i class="fas fa-book ml-2"></i>
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/.Mask-->
       </div>
+    </header>
+
+    <!-- main  -->
+    <main>
+      <!-- about section -->
+
+      <section id="about" class="py-5">
+        <div class="container">
+          <!-- Heading -->
+          <h2 class="mb-5 font-weight-bold text-center">About Me</h2>
+
+          <div class="row d-flex justify-content-center text-center mb-4">
+            <div class="col-md-9">
+              <img
+                src="./assets/images/bio-image.jpg"
+                class="bio-pic float-left rounded-circle"
+                alt="Biography Photo of Neil Gandhi"
+              />
+              <!-- Description -->
+              <p class="grey-text">
+                I am a seasoned engineer with over 10 years of experience in
+                Project Management and Systems Engineering looking to grow my
+                expertise by learning Full-Stack Development. Currently, engaged
+                in a Full-Stack Development course through The Georgia Institute
+                of Technology, I am learning how passionate I am about web
+                development and software engineering
+              </p>
+              <p class="grey-text">
+                When not developing applications, I keep busy with my newborn
+                daughters, my wife, and our dog. Currently we are in Charleston,
+                SC but are looking to move to either Houston, TX or Atlanta, GA
+                as soon as possible to be closer to family. I also enjoy
+                relaxing on a nice day and playing games during my free time.
+              </p>
+            </div>
+          </div>
+
+          <!-- Heading -->
+          <h2 class="mb-5 font-weight-bold text-center">Contact</h2>
+
+          <div class="row d-flex justify-content-center mb-4">
+            <div class="col-md-6">
+              <!-- Description -->
+
+              <ul class="list-group">
+                <li class="list-group-item contact">
+                  <div class="md-v-line"></div>
+                  <i class="far fa-envelope mr-4 pr-3"></i>
+                  neil.sgandhi@gmail.com
+                </li>
+                <li class="list-group-item contact">
+                  <div class="md-v-line"></div>
+                  <i class="fas fa-mobile-alt mr-5"></i>404-488-6531
+                </li>
+
+                <!-- make this a link to github -->
+                <li class="list-group-item contact">
+                  <div class="md-v-line"></div>
+                  <i class="fab fa-github mr-5"></i
+                  ><a href="https://github.com/ntch2000" target="_blank"
+                    >@ntch2000</a
+                  >
+                </li>
+
+                <!-- make this a link to linkedin -->
+                <li class="list-group-item contact">
+                  <div class="md-v-line"></div>
+                  <i class="fab fa-linkedin mr-5"></i
+                  ><a
+                    href="www.linkedin.com/in/neil-sgandhi
+                    "
+                    target="_blank"
+                    >Neil S. Gandhi
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 text-center">
+              <a
+                class="btn btn-dark"
+                href="assets/resume/Gandhi_Neil_20210102.pdf"
+                target="_blank"
+                >Download Resume</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills -->
+
+      <section id="skills" class="py-5">
+        <div class="container">
+          <h2 class="mb-5 font-weight-bold text-center">Technical Skills</h2>
+          <div class="row d-flex justify-content-center text-center mb-4">
+            <div class="col-md-9">
+              <p>
+                Seasoned Project Management Professional (PMP) and Certified
+                Systems Engineering Professional (CSEP) with a Master of Science
+                in Computer Information Systems and a certificate in full stack
+                development technologies from the Georgia Tech Professional
+                Education program. I have over 10 years of experience in
+                managing multi million-dollar security system solutions for the
+                Department of Defense, looking to integrate my expertise and
+                passion into full stack engineering technologies and web
+                development. My ability to learn concepts quickly, manage
+                requirements, and communicate effectively with stakeholders
+                allow me to be the ideal candidate for any software engineering
+                or development efforts.
+              </p>
+              <ul class="list-group">
+                <li class="list-group-item d-flex align-items-center skills">
+                  <i class="fab fa-html5 fa-2x mr-4"></i>HTML5
+                </li>
+                <li class="list-group-item d-flex align-items-center skills">
+                  <i class="fab fa-css3 fa-2x mr-4"></i>CSS3
+                </li>
+                <li class="list-group-item d-flex align-items-center skills">
+                  <i class="fab fa-js-square fa-2x mr-4"></i>JavaScript
+                  (Vanilla, jQuery)
+                </li>
+                <li class="list-group-item d-flex align-items-center skills">
+                  <i class="fab fa-bootstrap fa-2x mr-4"></i>Bootstrap 4
+                </li>
+                <li class="list-group-item d-flex align-items-center skills">
+                  <i class="fab fa-node fa-2x mr-3"></i>Node.js (Express,
+                  Express-Handlebars)
+                </li>
+                <li class="list-group-item d-flex align-items-center skills">
+                  <i class="fab fa-github fa-2x mr-4"></i>GitHub
+                </li>
+                <li class="list-group-item d-flex align-items-center skills">
+                  <i class="fas fa-database fa-2x mr-4"></i>Database (MySQL,
+                  MongoDB)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio -->
+
+      <section id="portfolio" class="py-5">
+        <div class="container">
+          <h2 class="mb-5 font-weight-bold text-center">Recent Projects</h2>
+          <div class="row d-flex justify-content-center text-center mb-4">
+            <div class="col-md-12">
+              <!-- <p>
+                Checkout my recent work. Feel free to contact me for additional
+                information or any questions regarding my work.
+              </p> -->
+
+              <!--  -->
+
+              <!--  -->
+
+              <!-- Card deck -->
+              <div class="card-deck" id="project-deck">
+                <!-- Card -->
+                <div class="card mb-4">
+                  <!--Card image-->
+                  <div class="view overlay">
+                    <img
+                      class="card-img-top"
+                      src="./assets/gifs/search-u-gif.gif"
+                      alt="Card image cap"
+                    />
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!--Card content-->
+                  <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Search-U</h4>
+                    <!--Text-->
+                    <p class="card-text">
+                      Web application for prospective college students to search
+                      cities and/or schools for University details and city
+                      quality of life metrics.
+                    </p>
+                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                  </div>
+                  <div class="card-footer text-center">
+                    <a
+                      href="https://ntch2000.github.io/searchu-project1/"
+                      class="btn btn-elegant"
+                      target="_blank"
+                      >Application</a
+                    >
+                    <a
+                      href="https://github.com/ntch2000/searchu-project1"
+                      class="btn btn-elegant"
+                      target="_blank"
+                      >Github Repository</a
+                    >
+                  </div>
+                </div>
+                <!-- Card -->
+
+                <!-- Card -->
+                <div class="card mb-4">
+                  <!--Card image-->
+                  <div class="view overlay">
+                    <img
+                      class="card-img-top"
+                      src="./assets/images/weather-dashboard.jpg"
+                      alt="Card image cap"
+                    />
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!--Card content-->
+                  <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title mt-5">Weather Dashboard</h4>
+                    <!--Text-->
+                    <p class="card-text">
+                      Web application dashboard to search for the current
+                      weather data for any city searched. Searched cities are
+                      saved to localstorage and can be selected again to
+                      retrieve current weather data.
+                    </p>
+                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                  </div>
+                  <div class="card-footer text-center">
+                    <a
+                      href="https://ntch2000.github.io/weather-dashboard/"
+                      class="btn btn-elegant"
+                      target="_blank"
+                      >Application</a
+                    >
+                    <a
+                      href="https://github.com/ntch2000/weather-dashboard"
+                      class="btn btn-elegant"
+                      target="_blank"
+                      >Github Repository</a
+                    >
+                  </div>
+                </div>
+                <!-- Card -->
+
+                <!-- Card -->
+                <div class="card mb-4">
+                  <!--Card image-->
+                  <div class="view overlay">
+                    <img
+                      class="card-img-top"
+                      src="./assets/images/food-truck-chasers2.jpg"
+                      alt="Card image cap"
+                    />
+                    <a href="#!">
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!--Card content-->
+                  <div class="card-body">
+                    <!--Title-->
+                    <h4 class="card-title">Food Truck Chasers</h4>
+                    <!--Text-->
+                    <p class="card-text">
+                      Full CRUD application that allows users to search for Food
+                      Trucks in their city. This application also allows for
+                      truck operators to create, manage, and update their Food
+                      Trucks.
+                    </p>
+                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                  </div>
+                  <div class="card-footer text-center">
+                    <a
+                      href="https://glacial-ocean-57671.herokuapp.com/"
+                      class="btn btn-elegant"
+                      target="_blank"
+                      >Application</a
+                    >
+                    <a
+                      href="https://github.com/ntch2000/FoodTruck-Chasers"
+                      class="btn btn-elegant"
+                      target="_blank"
+                      >Github Repository</a
+                    >
+                  </div>
+                </div>
+                <!-- Card -->
+              </div>
+              <!-- Card deck -->
+
+              <!--  -->
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <!-- Creates sticky footer at the bottom of the page -->
-    <footer class="footer text-center">
-      <section class="container">
-        <!-- Padding and margin set to 0 to ensure footer stays on bottom of page -->
-        <p class="m-0 p-0">&copy; Copyright 2020 - Neil Gandhi</p>
-      </section>
-    </footer>
+    <!-- footer  -->
 
-    <!-- Javascript files that allow the navbar to collapse and still function properly to navigate to each page -->
+    <!-- Footer -->
+    <footer class="page-footer font-small elegant-color">
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2021 Copyright - Neil Gandhi
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- JQuery -->
     <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
     ></script>
+    <!-- Bootstrap tooltips -->
     <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
     ></script>
+    <!-- Bootstrap core JavaScript -->
     <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"
     ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"
+    ></script>
+    <script src="" async defer></script>
   </body>
 </html>

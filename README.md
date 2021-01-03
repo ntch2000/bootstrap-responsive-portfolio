@@ -12,8 +12,6 @@ This page will utilize all the skills learned in the course to showcase my capab
 - [Development Notes](#development-notes)
 - [Usage](#usage)
   - [Index.html](#index.html)
-  - [Portfolio.html](#portfolio.html)
-  - [Contact.html](#contact.html)
 - [Credits](#credits)
 
 ## Installation
@@ -26,33 +24,21 @@ To see the code base for this page, visit my github page [https://github.com/ntc
 
 This is the newly updated career portfolio page, with personalized information as well as new styling. This page will continue to evolve as new technologies are learned and new frameworks integrated to provide the best portfolio page possible with the end result to obtain a new career in web-development.
 
+I decided to change the portfolio to a single page, requiring scrolling down to each section. This makes the portfolio more modern and in line with some of the new portfolio designs I have seen for 2020. I utilize MDBootstrap to incorporate some Material Design type styling and will continue to try to expand my CSS frameworks to building something more unique.
+
 ## Usage
 
 The following are screen captures of the updated portfolio pages.
 
 ### Index.html
 
-![Index Splash Page](./assets/images/index-splash-page.jpg "Portfolio Splash Page")
+![Index Splash Page](./assets/images/splash-page.jpg "Portfolio Splash Page")
 
----
+![Index About Section](./assets/images/about-me.jpg "Portfolio About Me Section")
 
-### About.html
+![Index Skills Section](./assets/images/skills.jpg "Portfolio Skills Section")
 
-![About Me Page](./assets/images/about-me.jpg "About Me Page")
-
----
-
-### Portfolio.html
-
-![Portfolio Page](./assets/images/portfolio.jpg "Portfolio Page")
-
-![Portfolio Details Page](./assets/images/portfolio-details.png "Portfolio Details Page")
-
----
-
-### Contact.html
-
-![Contact Page](./assets/images/contact.jpg "Contact Page")
+![Index Projects Section](./assets/images/projects.jpg "Portfolio Project Section")
 
 ---
 
@@ -60,8 +46,8 @@ The following are screen captures of the updated portfolio pages.
 
 The resources used to help develop this application are as follows.
 
-- The [Bootstrap 4](https://getbootstrap.com/) framework was used to create the majority of the page and css styles. This allowed for proper layout and responsiveness required for the page.
-- The sticky footer for each page was created utilizing the sticky footer example from [Bootstrap 4 Sticky Footer](https://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/)
+- The [Bootstrap 5](https://getbootstrap.com/) framework was used to create the majority of the page and css styles. This allowed for proper layout and responsiveness required for the page.
+- The [MDB](https://mdbootstrap.com/docs/standard/) framework which incorporates Material Design 2.0 with Bootstrap 5, allowing for some more modern CSS effects and a more streamlined portfolio page.
 - I used [Font Awesome](https://fontawesome.com/) icons for the contact page as well as the skills section.
 
 ---

@@ -1,91 +1,22 @@
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
-}
-
-body > .container {
-  padding: 60px 15px 0;
-}
-
-#splashPage {
-  opacity: 0.9;
-  color: white;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-/* Background image for the website is set here */
-
-.bg {
-  background-image: url(./images/Main-BG2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+html,
+body,
+header,
+#intro {
   height: 100%;
 }
 
-/* Styles the navbar-brand icon to be the proper color, size, and font */
-.navbar-brand {
-  font-weight: bold;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: #ffffff !important;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-.nav-link {
-  color: #ffffff !important;
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
 }
 
-/* Setting the proper font, color and spacing for the page headers */
-h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #4aaaa5;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  font-weight: bold;
+#intro {
+  background: url("./images/Main-BG-2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-/* Footer styling to ensure text is centered and footer
-sticks to the bottom of page no matter the size of the content*/
-.footer {
-  border-top: 5px solid #4aaaa5;
-  background-color: #343a40;
-  bottom: 0px;
-  position: absolute;
-  width: 100%;
-  height: 60px;
-  color: #4aaaa5;
-
-  /*Centers footer text vertically*/
-  line-height: 55px;
-}
-
-/* ensures the page the user is on has an active link styling */
-
-/* working on correcting active and hover link behavior */
-.nav-link.active {
-  border: 2px solid #fff;
-  border-radius: 4px;
-  padding: 6px 13px;
-}
-
-.nav-link:hover {
-  border: 2px solid #fff;
-  border-radius: 4px;
-  padding: 6px 13px;
-}
-
-.nav-link {
-  margin-right: 15px;
-  padding: 8px 15px;
-}
-
-/* Index.html spcific styling */
-
-/* Styles the bio picture with the proper sizing and spacing */
 .bio-pic {
   width: 176px;
   height: 233px;
@@ -93,36 +24,35 @@ sticks to the bottom of page no matter the size of the content*/
   margin-top: 5px;
 }
 
-/* Contact.html specific styling */
-
-a {
-  color: #004173;
-}
-
-.info-color {
-  color: #004173;
-}
-
-.btn-info-color {
-  background-color: #004173;
+#about {
+  background-color: #3f4144;
   color: white;
 }
 
-.btn-info-color:hover {
-  transition: 0.5s;
-  background-color: #012f53;
+.md-v-line {
+  position: absolute;
+  border-left: 1px solid rgba(0, 0, 0, 0.125);
+  height: 50px;
+  top: 0px;
+  left: 54px;
+}
+
+.contact {
+  background-color: #3f4144;
   color: white;
 }
 
-/* Portfolio.html specific styling */
-.card {
-  background-color: grey;
+li a {
   color: white;
 }
 
-.list-group-item {
-  background-color: grey;
-  color: white;
+li a:hover {
+  color: #2277b8;
+}
+
+#skills,
+.skills {
+  background-color: #eee;
 }
 
 /* font awesome icon colors */
@@ -136,7 +66,7 @@ a {
 }
 
 .fa-js-square {
-  color: yellow;
+  color: rgb(255, 0, 0);
 }
 
 .fa-bootstrap {
@@ -145,4 +75,22 @@ a {
 
 .fa-node {
   color: green;
+}
+
+.fa-database {
+  color: teal;
+}
+
+#portfolio {
+  background-color: #3f4144;
+  color: white;
+}
+
+#project-deck {
+  color: black;
+}
+
+.card {
+  background-color: #eee;
+  color: black;
 }
