@@ -81,6 +81,10 @@ li a:hover {
   color: teal;
 }
 
+.fa-react {
+  color: #1eaed6;
+}
+
 #portfolio {
   background-color: #3f4144;
   color: white;
